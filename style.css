@@ -1,0 +1,73 @@
+body{
+   background-color:  hsl(33, 23%, 44%);
+}
+
+.container{
+    background-color: hsl(30, 38%, 92%);
+    margin: 150px auto;
+    width: 650px;
+    height: 450px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.perfume{
+    margin-left: 30px;
+    max-width: 230px;
+    width: 500px;
+}
+
+.title{
+    padding-top:15px;
+    letter-spacing:5px;
+}
+.texto{
+    padding:10px 0 10px 0;
+    line-height:23px;
+    font-size:16px;
+}
+
+
+h1{
+   line-height:28px;
+}
+
+img{
+    width: 350px;
+    height: 450px;
+    border-radius:10px 0 0 10px; 
+}
+
+.preco{
+    color:hsl(158, 36%, 37%);
+    font-size:xx-large;
+    font-weight: bold;
+    padding-right: 30px;
+    
+}
+
+.preco-des{
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through;
+    font-size: 18px;
+    
+}
+
+.bottom{
+    margin-top: 30px;
+    padding: 15px 35px 15px 35px;
+    font-size:21px;
+    background-color:  hsl(158, 36%, 37%);
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 8px;
+    display: block ;
+    text-align: center;   
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+}
